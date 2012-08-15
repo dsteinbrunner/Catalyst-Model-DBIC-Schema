@@ -37,7 +37,6 @@ feature 'Caching support',
 
 feature 'Replication support',
     -default                   => 0,
-    'namespace::clean'         => 0,
     'Hash::Merge'              => 0;
 
 if(-e 'MANIFEST.SKIP') {
